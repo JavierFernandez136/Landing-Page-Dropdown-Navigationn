@@ -166,6 +166,13 @@ body{
     border-radius: 10px;
     text-decoration: none;
     font-weight: 700;
+    transition: all 0.3s;
+}
+.main__cta:hover{
+    background-color: var(--Almost-White);
+    color: black;
+    border: 1px solid black;
+    transform: scale(1.0,1.0);
 }
 
 .main__picture{
